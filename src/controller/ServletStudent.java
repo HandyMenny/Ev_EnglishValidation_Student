@@ -22,7 +22,6 @@ import model.Student;
 import model.SystemAttribute;
 import model.Utils;
 
-import org.eclipse.jdt.internal.compiler.env.IModule;
 import org.json.simple.JSONObject;
 
 
@@ -407,6 +406,7 @@ public class ServletStudent extends HttpServlet {
 
 
     JSONObject res = new JSONObject();
+
     res.put("result", result);
     res.put("error", error);
     res.put("content", content);
